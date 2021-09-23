@@ -1,3 +1,5 @@
+You will find the hints below!
+
 # Files you will need for the homework and exercises
 For the exercises, you will need:
 1 The notebook called exercise.ipynb
@@ -8,6 +10,15 @@ For the homework, you will need:
 2 The CSV file called legosets.csv
 
 For the optional homework, you will also need themes.csv
+
+
+Scroll down for hints...
+
+
+
+
+
+
 
 # Hints
 ## Lego homework
@@ -23,6 +34,14 @@ You can use some of the work you've already done for this task.
 
 #### most_used_word:
 You can use an approach similar to the one for year_most.  However, if you use iteration, It can be a bit tricky because the most common occurence may not be a word.
+
+
+
+
+
+
+
+
 
 ## Hints for the pension fund exercise:
 
@@ -42,6 +61,14 @@ Using csv.reader object won't work this time.
 
 #### Format the invested sums
 Use helper functions to make sure the formatting is correct.
+
+
+
+
+
+
+
+
 
 
 ### Second hints:
