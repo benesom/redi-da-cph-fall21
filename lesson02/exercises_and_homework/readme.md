@@ -10,13 +10,16 @@ For the homework, you will need:
 2 The CSV file called legosets.csv
 
 For the optional homework, you will also need themes.csv
-.
+.\n
 .
 .
 .
 
 Scroll down for hints...
-.
+.\n
+.\n
+.\n
+.\n.
 .
 .
 .
