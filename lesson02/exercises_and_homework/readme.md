@@ -28,35 +28,35 @@ You can use an approach similar to the one for year_most.  However, if you use i
 
 ### First hints
 
-Remove any wrong or odd row entries:
+#### Remove any wrong or odd row entries:
 There is something in the dataset that definetely doesn't belong there. You won't have any doubt about it when you find it.
 
-Read the file into memory:
+#### Read the file into memory:
 Remember that you will have to iterate over the csv.reader object when assigning the content of the file to a variable.
 
-All the columns with the company names begin with 'company_name:'. Remove this, so that the entry only contains the company's name.
+#### Remove 'company_name:'. 
 You can do this by making your own helper function or use a built-in function.
 
-Write the nice and clean data to another CSV file.
+#### Write the nice and clean data to another CSV file.
 Using csv.reader object won't work this time.
 
-In the raw file, the invested sums are formatted in different ways. AkademikerPension is formatted as decimal numbers, and Industriens Pension is in million DKK (e. g. 130 means 130000000). Only PenSam and Velliv are already formatted correctly. All of the sums have to be formatted as non-decimal numbers and as a complete number, e.g. if the investment is 5.9 million DKK, the entry should be 5900000 and nothing else.
+#### Format the invested sums
+Use helper functions to make sure the formatting is correct.
 
 
+### Second hints:
 
-Second hints:
-
-Remove any wrong or odd row entries:
+#### Remove any wrong or odd row entries:
 There is one row that definetely does not belong in the dataset. Find all the different names of the pension funds that occur in column 1, and you will find it.
 
-Read the file into memory:
+#### Read the file into memory:
 You have to create a csv.reader object, then add each element of the object to a list. You can also have a look at Realpython that has a good guide on CSV files: https://realpython.com/python-csv/
 
-All the columns with the company names begin with 'company_name:'. Remove this, so that the entry only contains the company's name:
+#### Remove 'company_name:'. 
 Create a helper function that turns the column entry into a list using the strip method, then remove 'company_name' from the list, and return it as a string. You can also use the built-in replace function.
 
-Write the nice and clean data to another CSV file.
+#### Write the nice and clean data to another CSV file.
 csv.reader objects are only for reading files. You'll have to use the csv.writer object instead.  The Realpython guide mentioned above can help you with this as well.
 
-In the raw file, the invested sums are formatted in different ways. AkademikerPension is formatted as decimal numbers, and Industriens Pension is in million DKK (e. g. 130 means 130000000). Only PenSam and Velliv are already formatted correctly. All of the sums have to be formatted as non-decimal numbers and as a complete number, e.g. if the investment is 5.9 million DKK, the entry should be 5900000 and nothing else:
+#### Format the invested sums
 Write two helper functions, one for AkademikerPension and one for Industriens Pension. They should both take the invested sum as an input, but the function body should then format the sum correctly and return the correct sum. You can then either use if-statements in your loop to check which helper function to use or create another helper function that first checks which helper function to use, then uses this helper function to format the sum, and finally returns the correctly formatted sum to the main loop. 
