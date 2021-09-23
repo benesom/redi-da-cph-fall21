@@ -14,8 +14,6 @@ For the optional homework, you will also need themes.csv
 \
 \
 \
-\
-\
 
 
 Scroll down for hints...
