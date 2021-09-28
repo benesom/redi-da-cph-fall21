@@ -24,6 +24,3 @@ All homework and exercise material will also be provided via this [Google Drive 
 | 30.11. | 11   | Semester Project Work                                                                    | ?                           |
 | 6.12.  | 12   | Semester Project Presentation                                                            | all                         |
 
-
-
-
