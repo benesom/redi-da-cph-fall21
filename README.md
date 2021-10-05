@@ -12,18 +12,15 @@ All homework and exercise material will also be provided via this [Google Drive 
 | Date   | Week | Topic                                                                                    | Available Teachers          |
 |--------|------|------------------------------------------------------------------------------------------|-----------------------------|
 | 14.9.  | 1    | Introduction to the course, class culture, Jupyter Notebooks, Refreshing Python concepts | Ben, Julia, Petter, Kristin |
-| 21.9.  | 2    | Getting proficient with Python                                                           | Kristin                     |
-| 28.9.  | 3    | Data Manipulation and transformation using numpy and pandas                              | Julia, Petter               |
-| 5.10.  | 4    | Data Wrangling and cleaning with pandas                                                  | Julia, Petter               |
-| 12.10. | 5    | Datetime handling and split-apply-combine with pandas                                    | Julia, Petter               |
+| 21.9.  | 2    | Getting proficient with Python                                                           | Kristin, Petter             |
+| 28.9.  | 3    | Data Manipulation and transformation using numpy and pandas                              | Julia,                      |
+| 5.10.  | 4    | Data Wrangling and cleaning with pandas                                                  | Julia,                      |
+| 12.10. | 5    | Datetime handling and split-apply-combine with pandas                                    | Julia,                      |
 | 26.10. | 6    | Data Visualization and exploratory data analysis I                                       | Monica, Ben                 |
 | 2.11.  | 7    | Data Visualization and exploratory data analysis II                                      | Monica, Kristin             |
 | 9.11.  | 8    | Statistical modelling and analysis I                                                     | Ben                         |
 | 16.11. | 9    | Statistical modelling and analysis II                                                    | Ben                         |
-| 23.11. | 10   | A word on critical data analysis and how to communicate data science findings            | Kristin                     |
+| 23.11. | 10   | A word on critical data analysis and how to communicate data science findings            | Kristin, Petter             |
 | 30.11. | 11   | Semester Project Work                                                                    | ?                           |
 | 6.12.  | 12   | Semester Project Presentation                                                            | all                         |
-
-
-
 
